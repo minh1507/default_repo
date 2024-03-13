@@ -1,7 +1,9 @@
 import RoleRoute from './role.route';
+import { Express, Router } from 'express';
+export default class Route {
+  static boots = (app: Express, router: Router) => {
+    const roleRoute = new RoleRoute();
 
-export default class Router{
-    static boots = () => {
-        RoleRoute.boots()
-    }
+    roleRoute.boots(app, router);
+  };
 }

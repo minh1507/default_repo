@@ -1,1 +1,1 @@
-export * from './sys.class'
+export * from './sys.class';
