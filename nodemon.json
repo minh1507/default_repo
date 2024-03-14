@@ -1,0 +1,3 @@
+{
+    "ignore": ["*.ts", "*.js", "node_modules"]
+  }
